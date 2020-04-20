@@ -5,7 +5,7 @@ module.exports = {
   },
   "extends": [
     "google",
-    "react-hooks",
+    "plugin:react-hooks/recommended",
   ],
   "globals": {
     "Atomics": "readonly",
@@ -30,8 +30,6 @@ module.exports = {
     "require-jsdoc": "off",
     "indent": ["error", 2],
     "object-curly-spacing": ["error", "always"],
-    "react-hooks/rules-of-hooks": "error",
-    "react-hooks/exhaustive-deps": "warn",
   },
   "overrides": [
     {
