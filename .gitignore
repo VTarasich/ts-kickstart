@@ -1,3 +1,4 @@
 dist/
 .idea/
+.eslintcache
 node_modules/
